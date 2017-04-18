@@ -13,7 +13,20 @@
 		28B29ABD1EA3A53500B96828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B29ABB1EA3A53500B96828 /* Main.storyboard */; };
 		28B29ABF1EA3A53500B96828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B29ABE1EA3A53500B96828 /* Assets.xcassets */; };
 		28B29AC21EA3A53500B96828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B29AC01EA3A53500B96828 /* LaunchScreen.storyboard */; };
+		28B29ACA1EA3B2D400B96828 /* MarvelKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29AC91EA3B2D400B96828 /* MarvelKeys.m */; };
+		28B29B221EA6349400B96828 /* Info-Tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28B29B201EA6349400B96828 /* Info-Tests.plist */; };
+		28B29B231EA6349400B96828 /* TDDSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B211EA6349400B96828 /* TDDSampleAppTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28B29AD41EA62F8300B96828 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B29AA71EA3A53500B96828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28B29AAE1EA3A53500B96828;
+			remoteInfo = TDDSampleApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		28B29AAF1EA3A53500B96828 /* TDDSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +39,21 @@
 		28B29ABE1EA3A53500B96828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B29AC11EA3A53500B96828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28B29AC31EA3A53500B96828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B29AC91EA3B2D400B96828 /* MarvelKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarvelKeys.m; sourceTree = "<group>"; };
+		28B29ACF1EA62F8300B96828 /* TDDSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B29B201EA6349400B96828 /* Info-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-Tests.plist"; path = "TDDSampleAppTests/Info-Tests.plist"; sourceTree = SOURCE_ROOT; };
+		28B29B211EA6349400B96828 /* TDDSampleAppTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDDSampleAppTests.m; path = TDDSampleAppTests/TDDSampleAppTests.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		28B29AAC1EA3A53500B96828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B29ACC1EA62F8300B96828 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				28B29AAF1EA3A53500B96828 /* TDDSampleApp.app */,
+				28B29ACF1EA62F8300B96828 /* TDDSampleAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +83,7 @@
 		28B29AB11EA3A53500B96828 /* TDDSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				28B29AC91EA3B2D400B96828 /* MarvelKeys.m */,
 				28B29AB51EA3A53500B96828 /* AppDelegate.h */,
 				28B29AB61EA3A53500B96828 /* AppDelegate.m */,
 				28B29AB81EA3A53500B96828 /* ViewController.h */,
@@ -66,6 +92,8 @@
 				28B29ABE1EA3A53500B96828 /* Assets.xcassets */,
 				28B29AC01EA3A53500B96828 /* LaunchScreen.storyboard */,
 				28B29AC31EA3A53500B96828 /* Info.plist */,
+				28B29B201EA6349400B96828 /* Info-Tests.plist */,
+				28B29B211EA6349400B96828 /* TDDSampleAppTests.m */,
 				28B29AB21EA3A53500B96828 /* Supporting Files */,
 			);
 			path = TDDSampleApp;
@@ -99,6 +127,24 @@
 			productReference = 28B29AAF1EA3A53500B96828 /* TDDSampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		28B29ACE1EA62F8300B96828 /* TDDSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B29AD61EA62F8300B96828 /* Build configuration list for PBXNativeTarget "TDDSampleAppTests" */;
+			buildPhases = (
+				28B29ACB1EA62F8300B96828 /* Sources */,
+				28B29ACC1EA62F8300B96828 /* Frameworks */,
+				28B29ACD1EA62F8300B96828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28B29AD51EA62F8300B96828 /* PBXTargetDependency */,
+			);
+			name = TDDSampleAppTests;
+			productName = TDDSampleAppTests;
+			productReference = 28B29ACF1EA62F8300B96828 /* TDDSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -112,6 +158,12 @@
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 4Y4DUJVCEZ;
 						ProvisioningStyle = Automatic;
+					};
+					28B29ACE1EA62F8300B96828 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4Y4DUJVCEZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28B29AAE1EA3A53500B96828;
 					};
 				};
 			};
@@ -129,6 +181,7 @@
 			projectRoot = "";
 			targets = (
 				28B29AAE1EA3A53500B96828 /* TDDSampleApp */,
+				28B29ACE1EA62F8300B96828 /* TDDSampleAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -144,6 +197,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28B29ACD1EA62F8300B96828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B29B221EA6349400B96828 /* Info-Tests.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -153,11 +214,28 @@
 			files = (
 				28B29ABA1EA3A53500B96828 /* ViewController.m in Sources */,
 				28B29AB71EA3A53500B96828 /* AppDelegate.m in Sources */,
+				28B29ACA1EA3B2D400B96828 /* MarvelKeys.m in Sources */,
 				28B29AB41EA3A53500B96828 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28B29ACB1EA62F8300B96828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B29B231EA6349400B96828 /* TDDSampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28B29AD51EA62F8300B96828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28B29AAE1EA3A53500B96828 /* TDDSampleApp */;
+			targetProxy = 28B29AD41EA62F8300B96828 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		28B29ABB1EA3A53500B96828 /* Main.storyboard */ = {
@@ -293,6 +371,32 @@
 			};
 			name = Release;
 		};
+		28B29AD71EA62F8300B96828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Y4DUJVCEZ;
+				INFOPLIST_FILE = "TDDSampleAppTests/Info-Tests.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.just-eng.TDDSampleAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDSampleApp.app/TDDSampleApp";
+			};
+			name = Debug;
+		};
+		28B29AD81EA62F8300B96828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Y4DUJVCEZ;
+				INFOPLIST_FILE = "TDDSampleAppTests/Info-Tests.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.just-eng.TDDSampleAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDSampleApp.app/TDDSampleApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -310,6 +414,14 @@
 			buildConfigurations = (
 				28B29AC71EA3A53500B96828 /* Debug */,
 				28B29AC81EA3A53500B96828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28B29AD61EA62F8300B96828 /* Build configuration list for PBXNativeTarget "TDDSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B29AD71EA62F8300B96828 /* Debug */,
+				28B29AD81EA62F8300B96828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
