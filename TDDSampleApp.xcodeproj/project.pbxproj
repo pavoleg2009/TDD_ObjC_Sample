@@ -17,6 +17,10 @@
 		28B29B221EA6349400B96828 /* Info-Tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28B29B201EA6349400B96828 /* Info-Tests.plist */; };
 		28B29B231EA6349400B96828 /* TDDSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B211EA6349400B96828 /* TDDSampleAppTests.m */; };
 		28B29B261EA65C2600B96828 /* TestingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B251EA65C2600B96828 /* TestingAppDelegate.m */; };
+		28B29B291EA692C700B96828 /* POSMarvelAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B281EA692C700B96828 /* POSMarvelAuthentication.m */; };
+		28B29B2B1EA6939200B96828 /* POSMarvelAuthenticationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B2A1EA6939200B96828 /* POSMarvelAuthenticationTest.m */; };
+		822AE45BEDD9848FD362AEC3 /* libPods-TDDSampleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2A8659532EAEA0B8FB7D5B /* libPods-TDDSampleAppTests.a */; };
+		B43C4DD61108DCD8FA619FD1 /* libPods-TDDSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E32FA35B8C9F250C47CE7813 /* libPods-TDDSampleApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,15 @@
 		28B29B211EA6349400B96828 /* TDDSampleAppTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDDSampleAppTests.m; path = TDDSampleAppTests/TDDSampleAppTests.m; sourceTree = SOURCE_ROOT; };
 		28B29B241EA65C2600B96828 /* TestingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingAppDelegate.h; sourceTree = "<group>"; };
 		28B29B251EA65C2600B96828 /* TestingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingAppDelegate.m; sourceTree = "<group>"; };
+		28B29B271EA692C700B96828 /* POSMarvelAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSMarvelAuthentication.h; sourceTree = "<group>"; };
+		28B29B281EA692C700B96828 /* POSMarvelAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSMarvelAuthentication.m; sourceTree = "<group>"; };
+		28B29B2A1EA6939200B96828 /* POSMarvelAuthenticationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSMarvelAuthenticationTest.m; sourceTree = "<group>"; };
+		95DF420CD0BB26ED372467B0 /* Pods-TDDSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDDSampleApp/Pods-TDDSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		9A2A8659532EAEA0B8FB7D5B /* libPods-TDDSampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDDSampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1A2202C3FA7DA031002EFF /* Pods-TDDSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDSampleAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDDSampleAppTests/Pods-TDDSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E32FA35B8C9F250C47CE7813 /* libPods-TDDSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDDSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF05CA29E9931CFA070E7E9 /* Pods-TDDSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDDSampleApp/Pods-TDDSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D4076B9717BB420DFC4AF7 /* Pods-TDDSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDSampleAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDDSampleAppTests/Pods-TDDSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43C4DD61108DCD8FA619FD1 /* libPods-TDDSampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822AE45BEDD9848FD362AEC3 /* libPods-TDDSampleAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +86,8 @@
 			children = (
 				28B29AB11EA3A53500B96828 /* TDDSampleApp */,
 				28B29AB01EA3A53500B96828 /* Products */,
+				EA297BA8E8299AE2C8471EAD /* Pods */,
+				65CFB04C01EFCAF671E9391E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,20 +103,23 @@
 		28B29AB11EA3A53500B96828 /* TDDSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				28B29AC91EA3B2D400B96828 /* MarvelKeys.m */,
 				28B29AB51EA3A53500B96828 /* AppDelegate.h */,
 				28B29AB61EA3A53500B96828 /* AppDelegate.m */,
-				28B29AB81EA3A53500B96828 /* ViewController.h */,
-				28B29AB91EA3A53500B96828 /* ViewController.m */,
-				28B29ABB1EA3A53500B96828 /* Main.storyboard */,
 				28B29ABE1EA3A53500B96828 /* Assets.xcassets */,
-				28B29AC01EA3A53500B96828 /* LaunchScreen.storyboard */,
-				28B29AC31EA3A53500B96828 /* Info.plist */,
 				28B29B201EA6349400B96828 /* Info-Tests.plist */,
-				28B29B211EA6349400B96828 /* TDDSampleAppTests.m */,
+				28B29AC31EA3A53500B96828 /* Info.plist */,
+				28B29AC01EA3A53500B96828 /* LaunchScreen.storyboard */,
+				28B29ABB1EA3A53500B96828 /* Main.storyboard */,
+				28B29AC91EA3B2D400B96828 /* MarvelKeys.m */,
+				28B29B271EA692C700B96828 /* POSMarvelAuthentication.h */,
+				28B29B281EA692C700B96828 /* POSMarvelAuthentication.m */,
+				28B29B2A1EA6939200B96828 /* POSMarvelAuthenticationTest.m */,
 				28B29AB21EA3A53500B96828 /* Supporting Files */,
+				28B29B211EA6349400B96828 /* TDDSampleAppTests.m */,
 				28B29B241EA65C2600B96828 /* TestingAppDelegate.h */,
 				28B29B251EA65C2600B96828 /* TestingAppDelegate.m */,
+				28B29AB81EA3A53500B96828 /* ViewController.h */,
+				28B29AB91EA3A53500B96828 /* ViewController.m */,
 			);
 			path = TDDSampleApp;
 			sourceTree = "<group>";
@@ -112,6 +132,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		65CFB04C01EFCAF671E9391E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E32FA35B8C9F250C47CE7813 /* libPods-TDDSampleApp.a */,
+				9A2A8659532EAEA0B8FB7D5B /* libPods-TDDSampleAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA297BA8E8299AE2C8471EAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF05CA29E9931CFA070E7E9 /* Pods-TDDSampleApp.debug.xcconfig */,
+				95DF420CD0BB26ED372467B0 /* Pods-TDDSampleApp.release.xcconfig */,
+				F0D4076B9717BB420DFC4AF7 /* Pods-TDDSampleAppTests.debug.xcconfig */,
+				BB1A2202C3FA7DA031002EFF /* Pods-TDDSampleAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28B29AC61EA3A53500B96828 /* Build configuration list for PBXNativeTarget "TDDSampleApp" */;
 			buildPhases = (
+				7DA7B1F5747B207C515E0349 /* [CP] Check Pods Manifest.lock */,
 				28B29AAB1EA3A53500B96828 /* Sources */,
 				28B29AAC1EA3A53500B96828 /* Frameworks */,
 				28B29AAD1EA3A53500B96828 /* Resources */,
+				80D1E3E9998A4A084730E102 /* [CP] Embed Pods Frameworks */,
+				BA97713834040A0FD0A65F3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28B29AD61EA62F8300B96828 /* Build configuration list for PBXNativeTarget "TDDSampleAppTests" */;
 			buildPhases = (
+				26DE7830D9602364E4863E55 /* [CP] Check Pods Manifest.lock */,
 				28B29ACB1EA62F8300B96828 /* Sources */,
 				28B29ACC1EA62F8300B96828 /* Frameworks */,
 				28B29ACD1EA62F8300B96828 /* Resources */,
+				048BA66D94E274DCD95DCF59 /* [CP] Embed Pods Frameworks */,
+				23E40244A4B9F2A322FD0ED5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +258,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		048BA66D94E274DCD95DCF59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDDSampleAppTests/Pods-TDDSampleAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23E40244A4B9F2A322FD0ED5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDDSampleAppTests/Pods-TDDSampleAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26DE7830D9602364E4863E55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DA7B1F5747B207C515E0349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80D1E3E9998A4A084730E102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDDSampleApp/Pods-TDDSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA97713834040A0FD0A65F3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDDSampleApp/Pods-TDDSampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28B29AAB1EA3A53500B96828 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -219,6 +358,7 @@
 			files = (
 				28B29ABA1EA3A53500B96828 /* ViewController.m in Sources */,
 				28B29AB71EA3A53500B96828 /* AppDelegate.m in Sources */,
+				28B29B291EA692C700B96828 /* POSMarvelAuthentication.m in Sources */,
 				28B29ACA1EA3B2D400B96828 /* MarvelKeys.m in Sources */,
 				28B29AB41EA3A53500B96828 /* main.m in Sources */,
 			);
@@ -229,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B29B231EA6349400B96828 /* TDDSampleAppTests.m in Sources */,
+				28B29B2B1EA6939200B96828 /* POSMarvelAuthenticationTest.m in Sources */,
 				28B29B261EA65C2600B96828 /* TestingAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +496,7 @@
 		};
 		28B29AC71EA3A53500B96828 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF05CA29E9931CFA070E7E9 /* Pods-TDDSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4Y4DUJVCEZ;
@@ -367,6 +509,7 @@
 		};
 		28B29AC81EA3A53500B96828 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95DF420CD0BB26ED372467B0 /* Pods-TDDSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4Y4DUJVCEZ;
@@ -379,6 +522,7 @@
 		};
 		28B29AD71EA62F8300B96828 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D4076B9717BB420DFC4AF7 /* Pods-TDDSampleAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4Y4DUJVCEZ;
@@ -392,6 +536,7 @@
 		};
 		28B29AD81EA62F8300B96828 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1A2202C3FA7DA031002EFF /* Pods-TDDSampleAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4Y4DUJVCEZ;
@@ -422,6 +567,7 @@
 				28B29AC81EA3A53500B96828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28B29AD61EA62F8300B96828 /* Build configuration list for PBXNativeTarget "TDDSampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +576,7 @@
 				28B29AD81EA62F8300B96828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
