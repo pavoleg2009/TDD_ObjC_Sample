@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28553E111EA81CF200133E90 /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28553E101EA81CF200133E90 /* AcceptanceTests.m */; };
 		28B29AB41EA3A53500B96828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29AB31EA3A53500B96828 /* main.m */; };
 		28B29AB71EA3A53500B96828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29AB61EA3A53500B96828 /* AppDelegate.m */; };
 		28B29ABA1EA3A53500B96828 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29AB91EA3A53500B96828 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		28B29AC21EA3A53500B96828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B29AC01EA3A53500B96828 /* LaunchScreen.storyboard */; };
 		28B29ACA1EA3B2D400B96828 /* MarvelKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29AC91EA3B2D400B96828 /* MarvelKeys.m */; };
 		28B29B221EA6349400B96828 /* Info-Tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28B29B201EA6349400B96828 /* Info-Tests.plist */; };
-		28B29B231EA6349400B96828 /* TDDSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B211EA6349400B96828 /* TDDSampleAppTests.m */; };
 		28B29B261EA65C2600B96828 /* TestingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B251EA65C2600B96828 /* TestingAppDelegate.m */; };
 		28B29B291EA692C700B96828 /* POSMarvelAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B281EA692C700B96828 /* POSMarvelAuthentication.m */; };
 		28B29B2B1EA6939200B96828 /* POSMarvelAuthenticationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B2A1EA6939200B96828 /* POSMarvelAuthenticationTest.m */; };
@@ -24,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		28553E131EA81CF200133E90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B29AA71EA3A53500B96828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28B29AAE1EA3A53500B96828;
+			remoteInfo = TDDSampleApp;
+		};
 		28B29AD41EA62F8300B96828 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 28B29AA71EA3A53500B96828 /* Project object */;
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28553E0E1EA81CF200133E90 /* TDDSampleApp_AcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSampleApp_AcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28553E101EA81CF200133E90 /* AcceptanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AcceptanceTests.m; path = TDDSampleApp_AcceptanceTests/AcceptanceTests.m; sourceTree = SOURCE_ROOT; };
+		28553E121EA81CF200133E90 /* Info-Acceptance.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Acceptance.plist"; path = "TDDSampleApp_AcceptanceTests/Info-Acceptance.plist"; sourceTree = SOURCE_ROOT; };
 		28B29AAF1EA3A53500B96828 /* TDDSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B29AB31EA3A53500B96828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28B29AB51EA3A53500B96828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,7 +57,6 @@
 		28B29AC91EA3B2D400B96828 /* MarvelKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarvelKeys.m; sourceTree = "<group>"; };
 		28B29ACF1EA62F8300B96828 /* TDDSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B29B201EA6349400B96828 /* Info-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-Tests.plist"; path = "TDDSampleAppTests/Info-Tests.plist"; sourceTree = SOURCE_ROOT; };
-		28B29B211EA6349400B96828 /* TDDSampleAppTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDDSampleAppTests.m; path = TDDSampleAppTests/TDDSampleAppTests.m; sourceTree = SOURCE_ROOT; };
 		28B29B241EA65C2600B96828 /* TestingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingAppDelegate.h; sourceTree = "<group>"; };
 		28B29B251EA65C2600B96828 /* TestingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingAppDelegate.m; sourceTree = "<group>"; };
 		28B29B271EA692C700B96828 /* POSMarvelAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSMarvelAuthentication.h; sourceTree = "<group>"; };
@@ -62,6 +71,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		28553E0B1EA81CF200133E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28B29AAC1EA3A53500B96828 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,6 +112,7 @@
 			children = (
 				28B29AAF1EA3A53500B96828 /* TDDSampleApp.app */,
 				28B29ACF1EA62F8300B96828 /* TDDSampleAppTests.xctest */,
+				28553E0E1EA81CF200133E90 /* TDDSampleApp_AcceptanceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +120,8 @@
 		28B29AB11EA3A53500B96828 /* TDDSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				28553E101EA81CF200133E90 /* AcceptanceTests.m */,
+				28553E121EA81CF200133E90 /* Info-Acceptance.plist */,
 				28B29AB51EA3A53500B96828 /* AppDelegate.h */,
 				28B29AB61EA3A53500B96828 /* AppDelegate.m */,
 				28B29ABE1EA3A53500B96828 /* Assets.xcassets */,
@@ -115,7 +134,6 @@
 				28B29B281EA692C700B96828 /* POSMarvelAuthentication.m */,
 				28B29B2A1EA6939200B96828 /* POSMarvelAuthenticationTest.m */,
 				28B29AB21EA3A53500B96828 /* Supporting Files */,
-				28B29B211EA6349400B96828 /* TDDSampleAppTests.m */,
 				28B29B241EA65C2600B96828 /* TestingAppDelegate.h */,
 				28B29B251EA65C2600B96828 /* TestingAppDelegate.m */,
 				28B29AB81EA3A53500B96828 /* ViewController.h */,
@@ -155,6 +173,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		28553E0D1EA81CF200133E90 /* TDDSampleApp_AcceptanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28553E171EA81CF200133E90 /* Build configuration list for PBXNativeTarget "TDDSampleApp_AcceptanceTests" */;
+			buildPhases = (
+				28553E0A1EA81CF200133E90 /* Sources */,
+				28553E0B1EA81CF200133E90 /* Frameworks */,
+				28553E0C1EA81CF200133E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28553E141EA81CF200133E90 /* PBXTargetDependency */,
+			);
+			name = TDDSampleApp_AcceptanceTests;
+			productName = TDDSampleApp_AcceptanceTests;
+			productReference = 28553E0E1EA81CF200133E90 /* TDDSampleApp_AcceptanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		28B29AAE1EA3A53500B96828 /* TDDSampleApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28B29AC61EA3A53500B96828 /* Build configuration list for PBXNativeTarget "TDDSampleApp" */;
@@ -205,6 +241,12 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Oleg Pavlichenkov";
 				TargetAttributes = {
+					28553E0D1EA81CF200133E90 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4Y4DUJVCEZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28B29AAE1EA3A53500B96828;
+					};
 					28B29AAE1EA3A53500B96828 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 4Y4DUJVCEZ;
@@ -233,11 +275,19 @@
 			targets = (
 				28B29AAE1EA3A53500B96828 /* TDDSampleApp */,
 				28B29ACE1EA62F8300B96828 /* TDDSampleAppTests */,
+				28553E0D1EA81CF200133E90 /* TDDSampleApp_AcceptanceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		28553E0C1EA81CF200133E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28B29AAD1EA3A53500B96828 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,6 +402,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		28553E0A1EA81CF200133E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28553E111EA81CF200133E90 /* AcceptanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28B29AAB1EA3A53500B96828 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,7 +426,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B29B231EA6349400B96828 /* TDDSampleAppTests.m in Sources */,
 				28B29B2B1EA6939200B96828 /* POSMarvelAuthenticationTest.m in Sources */,
 				28B29B261EA65C2600B96828 /* TestingAppDelegate.m in Sources */,
 			);
@@ -377,6 +434,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		28553E141EA81CF200133E90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28B29AAE1EA3A53500B96828 /* TDDSampleApp */;
+			targetProxy = 28553E131EA81CF200133E90 /* PBXContainerItemProxy */;
+		};
 		28B29AD51EA62F8300B96828 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 28B29AAE1EA3A53500B96828 /* TDDSampleApp */;
@@ -404,6 +466,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		28553E151EA81CF200133E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Y4DUJVCEZ;
+				INFOPLIST_FILE = "TDDSampleApp_AcceptanceTests/Info-Acceptance.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.just-eng.TDDSampleApp-AcceptanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDSampleApp.app/TDDSampleApp";
+			};
+			name = Debug;
+		};
+		28553E161EA81CF200133E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Y4DUJVCEZ;
+				INFOPLIST_FILE = "TDDSampleApp_AcceptanceTests/Info-Acceptance.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.just-eng.TDDSampleApp-AcceptanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDSampleApp.app/TDDSampleApp";
+			};
+			name = Release;
+		};
 		28B29AC41EA3A53500B96828 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -551,6 +639,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		28553E171EA81CF200133E90 /* Build configuration list for PBXNativeTarget "TDDSampleApp_AcceptanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28553E151EA81CF200133E90 /* Debug */,
+				28553E161EA81CF200133E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		28B29AAA1EA3A53500B96828 /* Build configuration list for PBXProject "TDDSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

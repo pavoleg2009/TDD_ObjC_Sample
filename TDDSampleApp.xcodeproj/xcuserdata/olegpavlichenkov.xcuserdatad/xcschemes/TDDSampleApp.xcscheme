@@ -38,6 +38,16 @@
                ReferencedContainer = "container:TDDSampleApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "28553E0D1EA81CF200133E90"
+               BuildableName = "TDDSampleApp_AcceptanceTests.xctest"
+               BlueprintName = "TDDSampleApp_AcceptanceTests"
+               ReferencedContainer = "container:TDDSampleApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
