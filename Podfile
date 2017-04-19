@@ -12,5 +12,11 @@ target 'TDDSampleApp' do
     # Pods for testing
     pod 'OCHamcrest', '~> 6.0'
   end
+  
+  target 'TDDSampleApp_AcceptanceTests' do
+      inherit! :search_paths
+      # Pods for testing
+      pod 'OCHamcrest', '~> 6.0'
+  end
 
 end

@@ -1,38 +1,50 @@
-//
-//  TDDSampleApp_AcceptanceTests.m
-//  TDDSampleApp_AcceptanceTests
-//
-//  Created by Oleg Pavlichenkov on 20/04/2017.
-//  Copyright © 2017 Oleg Pavlichenkov. All rights reserved.
-//
-
 #import <XCTest/XCTest.h>
+#define HC_SHORTHAND
+#import <OCHamcrest/OCHamcrest.h>
+#import "POSMarvelAuthentication.h"
 
 @interface TDDSampleApp_AcceptanceTests : XCTestCase
 
 @end
 
 @implementation TDDSampleApp_AcceptanceTests
-
+{
+    POSMarvelAuthentication *sut;
+}
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    sut = [[POSMarvelAuthentication alloc] init];
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    sut = nil;
+    
     [super tearDown];
 }
 
-- (void)testExample {
-    XCTFail(@"acceptance");
+- (void)testValidCallToMarvel_ShouldGerHTTPStatusCode200 {
+    
+    NSString *validQueryMissingAuthentication = @"http://gateway.marvel.com/v1/public/characters?nameStartsWith=Spider";
+    POSMarvelAuthentication *authentication = [[POSMarvelAuthentication alloc] init];
+    
+    NSURL *validQueryURL = [NSURL URLWithString:[validQueryMissingAuthentication stringByAppendingString:[authentication URLParameters]]];
+    
+    __block NSHTTPURLResponse *httpResponse;
+    [self startGetRequestToURL:validQueryURL withCompletionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        httpResponse = (NSHTTPURLResponse *)response;
+    }];
+    
+    assertWithTimeout(5, thatEventually(@(httpResponse.statusCode)), is(@200));
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)startGetRequestToURL:(NSURL *)url withCompletionHandler:(void (^)(NSData *, NSURLResponse *, NSError *))completionHandler
+{
+    NSURLSessionConfiguration *sessionConfig = [NSURLSessionConfiguration defaultSessionConfiguration];
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:sessionConfig];
+    NSURLSessionDataTask *dataTask = [session dataTaskWithURL:url completionHandler:completionHandler];
+    
+    [dataTask resume];
 }
 
 @end

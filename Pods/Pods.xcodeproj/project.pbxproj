@@ -24,7 +24,7 @@
 		160A201ADE809A67502F84B2A0220087 /* HCHasCount.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B298DA9E060C153D6030E5D227FEA3 /* HCHasCount.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		181CECBD0C564EB943377CE91D66F1EF /* HCAssertThat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7595D63F99F20929E57301B083CEE170 /* HCAssertThat.m */; };
 		183E4803EE5283C2CAD75573763209BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		18DA3CEFACDE7E6CFC6325EA1FCA8D08 /* Pods-TDDSampleAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BF5477E0BC65087E4F5DCD160B9C /* Pods-TDDSampleAppTests-dummy.m */; };
+		18DA3CEFACDE7E6CFC6325EA1FCA8D08 /* Pods-TDDSampleAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10EC680BBF22EA750C749801B49026 /* Pods-TDDSampleAppTests-dummy.m */; };
 		1D4ABBB14B5A787423B5F23D03656630 /* HCXCTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73800FD6E59699CEB3617B7F9E0298D8 /* HCXCTestFailureReporter.m */; };
 		1D76E5FE5FE2543913DA132DC3199789 /* HCLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA26ADDCF19FD2421846421AB3CBDA37 /* HCLongReturnGetter.m */; };
 		1F6507C4DC7B9BC5DDD223229C3995B3 /* HCIsAnything.h in Headers */ = {isa = PBXBuildFile; fileRef = F6047D350DCDFDD44731A1EC30A63B1A /* HCIsAnything.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -129,6 +129,7 @@
 		C4EFC06E77A30C77E6038303235274FE /* HCSenTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA51332094E6C3730A9AE46BC030D9B /* HCSenTestFailureReporter.m */; };
 		C51F559C29CDAA28882E074DF83621DA /* HCIsTrueFalse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D954F451EEBA3FD358842B5620FDB63 /* HCIsTrueFalse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5AB285569224A4A78CAC2D6DAFF5D17 /* HCLongLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F5F06E2568BDEFA15A8E206E7E83D /* HCLongLongReturnGetter.m */; };
+		C6B045F54BABACB02A33950DCD072A63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		C71D4F3D3C9F68E9E0CB50D4B2D7342D /* HCStringContainsInOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B9B841B941A8208D533B429FD8700F /* HCStringContainsInOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7FF47391AC3AC1C7EFB9B65F2BA5573 /* HCOrderingComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8E59310F3D26BF36A423A3D8573CB6 /* HCOrderingComparison.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8E5699A7E22ADE2A201C80E953455B7 /* HCStringContains.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FF79D13EA8A24D66794F4AD28643BD /* HCStringContains.m */; };
@@ -139,7 +140,7 @@
 		CDC83487E92DDA255E770BC25515C493 /* HCDiagnosingMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A95868CD7E4ADA681239EE50BAAF2259 /* HCDiagnosingMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CED459354E0DA3256395E23ACF84CAB2 /* HCIsNot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E9FF76B8EFF6221223C6E62256648A9 /* HCIsNot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D31B816CFD40961DA3F5D991B412D10E /* HCIsTrueFalse.m in Sources */ = {isa = PBXBuildFile; fileRef = C555D82DC40489EAFFF3EC2A28D31998 /* HCIsTrueFalse.m */; };
-		D6651EC4E0B78B106066AF501B853606 /* Pods-TDDSampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F115BF6E800352961BAAEBCF8B0DEB8 /* Pods-TDDSampleApp-dummy.m */; };
+		D6651EC4E0B78B106066AF501B853606 /* Pods-TDDSampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2012AF8051FF7993C02EF071A2B3E5F /* Pods-TDDSampleApp-dummy.m */; };
 		D6B7ECDD01D1C3D405BADBFD90DE2263 /* HCIs.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9DB1CFD2BDD43C7642CFEE2E5D11FD /* HCIs.m */; };
 		D7BA08E0F03B34471654AF9C80826590 /* HCAnyOf.h in Headers */ = {isa = PBXBuildFile; fileRef = D2BFE44C27F367351C5346C8D3777862 /* HCAnyOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D918057EDC0F913FB2189882E1C4F416 /* HCStringContainsInOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 103C7F7D763B641D54D4CC3BE92D0818 /* HCStringContainsInOrder.m */; };
@@ -152,6 +153,7 @@
 		E930BD124E225782E79E60E478E07202 /* HCIsCollectionContainingInOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = D3139A4390C46BB6829E91DBCA08BC98 /* HCIsCollectionContainingInOrder.m */; };
 		E94C7F819B9722FCE87C421B10A04540 /* HCIsDictionaryContainingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4644A73B053C7FF50F7A07D128654E /* HCIsDictionaryContainingKey.m */; };
 		EA36A6ECF441620A4EE6FA5E5BB01612 /* HCIsCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A9D5D67DAA788610F6DA7287F54EA /* HCIsCloseTo.m */; };
+		EA7ABFAF50E7028E8F185EFB6AA44D69 /* Pods-TDDSampleApp_AcceptanceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E401A5DB55694CC8854B993402F1806 /* Pods-TDDSampleApp_AcceptanceTests-dummy.m */; };
 		EAEA9771E179C19B1DEAE160A20888F0 /* HCClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE3B3708A503774C05DEC53FDA3511D /* HCClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECEA4A414DC118AAD5919FBEB36CB3A3 /* HCNumberAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AF59000E0E23D9F91B646E4B1F690E /* HCNumberAssert.m */; };
 		EEE0AC9789EA2632A6945903582A6491 /* HCFloatReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B8A9AC6567C90AF7FBBAFD7E40C79 /* HCFloatReturnGetter.m */; };
@@ -177,6 +179,13 @@
 			remoteGlobalIDString = 2A023507EAD85F40065A236BE2F30BD4;
 			remoteInfo = OCHamcrest;
 		};
+		CA654F5CE5BB2965524E95D0A9ECC69F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A023507EAD85F40065A236BE2F30BD4;
+			remoteInfo = OCHamcrest;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -189,10 +198,10 @@
 		0B17A4A61DA143DEAE92BEE79082B0C1 /* HCBaseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBaseMatcher.h; path = Source/Core/HCBaseMatcher.h; sourceTree = "<group>"; };
 		0B3CC7ABE629B197C8947B6FAAD279FF /* HCDoubleReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCDoubleReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCDoubleReturnGetter.m; sourceTree = "<group>"; };
 		0BEF2008531B4D8A5EA2BCE8172ED148 /* HCDescribedAs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDescribedAs.h; path = Source/Library/Decorator/HCDescribedAs.h; sourceTree = "<group>"; };
+		0D10EC680BBF22EA750C749801B49026 /* Pods-TDDSampleAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDDSampleAppTests-dummy.m"; sourceTree = "<group>"; };
 		0D36AB157BF2D25540A768478BC4D977 /* HCIsCollectionContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionContaining.m; path = Source/Library/Collection/HCIsCollectionContaining.m; sourceTree = "<group>"; };
 		0E5473CD9A2E1D578687D57304E75B8E /* HCUnsignedLongLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedLongLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongLongReturnGetter.m; sourceTree = "<group>"; };
 		0EA2039C40B8A8E383123126C332C06A /* HCIntReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIntReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCIntReturnGetter.h; sourceTree = "<group>"; };
-		0F199C71A428633D89C647F7AF8F3890 /* Pods-TDDSampleAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDDSampleAppTests-resources.sh"; sourceTree = "<group>"; };
 		0FA2787A2509B469AE10FEB5AB4E55EF /* HCIsCollectionContainingInOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCollectionContainingInOrder.h; path = Source/Library/Collection/HCIsCollectionContainingInOrder.h; sourceTree = "<group>"; };
 		101309556C910649CE7319231F09D7D9 /* HCIsCollectionContainingInAnyOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionContainingInAnyOrder.m; path = Source/Library/Collection/HCIsCollectionContainingInAnyOrder.m; sourceTree = "<group>"; };
 		103C7F7D763B641D54D4CC3BE92D0818 /* HCStringContainsInOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringContainsInOrder.m; path = Source/Library/Text/HCStringContainsInOrder.m; sourceTree = "<group>"; };
@@ -201,13 +210,14 @@
 		130B8A9AC6567C90AF7FBBAFD7E40C79 /* HCFloatReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCFloatReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCFloatReturnGetter.m; sourceTree = "<group>"; };
 		1388CE18725C2A439F19B9A2E94D3924 /* HCIsNot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsNot.m; path = Source/Library/Logical/HCIsNot.m; sourceTree = "<group>"; };
 		13B0016F61FB69F0520BC2127FDC2164 /* HCObjectReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCObjectReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCObjectReturnGetter.m; sourceTree = "<group>"; };
+		163BAD40EE10A44C6FB531D62B0E36BA /* Pods-TDDSampleApp_AcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDDSampleApp_AcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
 		16F9D8F1D8AB3C6344440BF537FD07E5 /* HCCharReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCCharReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCCharReturnGetter.m; sourceTree = "<group>"; };
 		186957DB22C66F988318E9262F26C1A3 /* HCHasCount.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCHasCount.m; path = Source/Library/Collection/HCHasCount.m; sourceTree = "<group>"; };
 		1AD96B64C9FBC4904CD9E758E406A733 /* HCArgumentCaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCArgumentCaptor.h; path = Source/Library/Object/HCArgumentCaptor.h; sourceTree = "<group>"; };
 		1BE3B3708A503774C05DEC53FDA3511D /* HCClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCClassMatcher.h; path = Source/Library/Object/HCClassMatcher.h; sourceTree = "<group>"; };
+		1C8B817190D494AF4526D0E9AC2258C3 /* Pods-TDDSampleApp_AcceptanceTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDDSampleApp_AcceptanceTests-resources.sh"; sourceTree = "<group>"; };
 		1E9FF76B8EFF6221223C6E62256648A9 /* HCIsNot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsNot.h; path = Source/Library/Logical/HCIsNot.h; sourceTree = "<group>"; };
 		1F0BE0D650C0AB64ED5618589FBEE0CD /* HCUnsignedLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongReturnGetter.m; sourceTree = "<group>"; };
-		23F5D30FB03816AD90B36C542FF7A8A0 /* Pods-TDDSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDDSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2423472A6372B47214696891B2F359EC /* HCIsDictionaryContainingEntries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContainingEntries.h; path = Source/Library/Collection/HCIsDictionaryContainingEntries.h; sourceTree = "<group>"; };
 		2618FC9731727454E508EEC4C84A2F4D /* HCIsCollectionOnlyContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionOnlyContaining.m; path = Source/Library/Collection/HCIsCollectionOnlyContaining.m; sourceTree = "<group>"; };
 		2653A85250292DA4A001918AFC5482D7 /* HCTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporter.h; sourceTree = "<group>"; };
@@ -218,19 +228,21 @@
 		2D334CF189622C4FE89B45E1536D0014 /* HCUnsignedLongLongReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedLongLongReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongLongReturnGetter.h; sourceTree = "<group>"; };
 		2D6934CB95ECA35FB7F6A2BBD0D85620 /* HCBaseDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCBaseDescription.m; path = Source/Core/HCBaseDescription.m; sourceTree = "<group>"; };
 		2E956C7420C87653402E0751D43F1865 /* OCHamcrest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCHamcrest-dummy.m"; sourceTree = "<group>"; };
-		2F115BF6E800352961BAAEBCF8B0DEB8 /* Pods-TDDSampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDDSampleApp-dummy.m"; sourceTree = "<group>"; };
 		3253AE4B608C7262F4F336C0DCA5BC98 /* HCIsNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsNil.m; path = Source/Library/Object/HCIsNil.m; sourceTree = "<group>"; };
 		339697408DD5693BE9AADC8F557A695E /* HCStringEndsWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringEndsWith.m; path = Source/Library/Text/HCStringEndsWith.m; sourceTree = "<group>"; };
 		33983955C532E0BD5ABE24DADB457B83 /* HCCollect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCCollect.m; path = Source/Core/Helpers/HCCollect.m; sourceTree = "<group>"; };
-		36EE00DB623F225781DDBA3C5668B16C /* Pods-TDDSampleAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDDSampleAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		34BAAB7D0C743208F075DD1FBC6A0547 /* Pods-TDDSampleAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDDSampleAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B8D378DA0ADA948E0FAABA84B6781C7 /* HCIsDictionaryContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsDictionaryContaining.m; path = Source/Library/Collection/HCIsDictionaryContaining.m; sourceTree = "<group>"; };
 		3C609EBE6C601F86ED80248071615F56 /* HCGenericTestFailureReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCGenericTestFailureReporter.m; path = Source/Core/Helpers/TestFailureReporters/HCGenericTestFailureReporter.m; sourceTree = "<group>"; };
-		3C9FC06A890B58C9E24039615D5836FD /* Pods-TDDSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDDSampleApp-frameworks.sh"; sourceTree = "<group>"; };
+		3D51B3DF9290BC17AA06BF04BB92FE22 /* Pods-TDDSampleAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDDSampleAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40EF10BE4696A8C25BEEF078D1A1639F /* Pods-TDDSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDDSampleApp-frameworks.sh"; sourceTree = "<group>"; };
 		410DECDABDC83021038286AE3BAFA329 /* HCXCTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCXCTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCXCTestFailureReporter.h; sourceTree = "<group>"; };
 		411ECE033A1E64F93118E6953EA6AB15 /* HCIsEqual.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqual.m; path = Source/Library/Object/HCIsEqual.m; sourceTree = "<group>"; };
+		41A4E773ECE359753B16FD0EA939C22A /* Pods-TDDSampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDDSampleApp-resources.sh"; sourceTree = "<group>"; };
 		424BDF7DE0CB1C268314610AAB52B560 /* HCUnsignedShortReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedShortReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedShortReturnGetter.m; sourceTree = "<group>"; };
 		42804846A761028D74B9CA395668A43F /* HCIsInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsInstanceOf.h; path = Source/Library/Object/HCIsInstanceOf.h; sourceTree = "<group>"; };
 		44754EC311BF896D85F56BA35A4965D6 /* HCIsNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsNil.h; path = Source/Library/Object/HCIsNil.h; sourceTree = "<group>"; };
+		44A1B8DD4B8D33C9A010CC3C4D43E0FF /* Pods-TDDSampleAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDDSampleAppTests-resources.sh"; sourceTree = "<group>"; };
 		4525FC0D2DC1A18BC63C7437B7997921 /* HCIntReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIntReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCIntReturnGetter.m; sourceTree = "<group>"; };
 		458DA799C914231201625C13CF3B3204 /* HCIsCollectionContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCollectionContaining.h; path = Source/Library/Collection/HCIsCollectionContaining.h; sourceTree = "<group>"; };
 		46FF4B49835EE23DA82C07C4454EF818 /* HCReturnValueGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCReturnValueGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCReturnValueGetter.m; sourceTree = "<group>"; };
@@ -239,41 +251,43 @@
 		4D30370DDEE08D92C5F4621587D1A341 /* HCMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCMatcher.h; path = Source/Core/HCMatcher.h; sourceTree = "<group>"; };
 		4D954F451EEBA3FD358842B5620FDB63 /* HCIsTrueFalse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsTrueFalse.h; path = Source/Library/Number/HCIsTrueFalse.h; sourceTree = "<group>"; };
 		4DC8E7D2E686EFDB19D99913A4EA8474 /* HCIsDictionaryContainingKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContainingKey.h; path = Source/Library/Collection/HCIsDictionaryContainingKey.h; sourceTree = "<group>"; };
+		4E401A5DB55694CC8854B993402F1806 /* Pods-TDDSampleApp_AcceptanceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDDSampleApp_AcceptanceTests-dummy.m"; sourceTree = "<group>"; };
 		5130219D35BD47BF38A97723BFBDD2EC /* HCIsIn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsIn.m; path = Source/Library/Collection/HCIsIn.m; sourceTree = "<group>"; };
+		51702EFC1C645DD806B185CFC2684EFE /* libOCHamcrest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libOCHamcrest.a; path = libOCHamcrest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5197A8376D0536EB87019B747381AEEE /* HCStringStartsWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringStartsWith.m; path = Source/Library/Text/HCStringStartsWith.m; sourceTree = "<group>"; };
-		52717B943C657B2200C8873D21906815 /* Pods-TDDSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDDSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		52FF79D13EA8A24D66794F4AD28643BD /* HCStringContains.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringContains.m; path = Source/Library/Text/HCStringContains.m; sourceTree = "<group>"; };
 		531F4A8AF3D7BE3C9626BC3946604876 /* HCHasProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCHasProperty.m; path = Source/Library/Object/HCHasProperty.m; sourceTree = "<group>"; };
 		5A3B779C557A6C0727BEEA8446057EEA /* HCLongLongReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCLongLongReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCLongLongReturnGetter.h; sourceTree = "<group>"; };
-		5C2A9D44E24ECBA31674143A0D470C85 /* libOCHamcrest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libOCHamcrest.a; path = libOCHamcrest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D53C1B79E60D91BCE5BB213A299E099 /* HCArgumentCaptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCArgumentCaptor.m; path = Source/Library/Object/HCArgumentCaptor.m; sourceTree = "<group>"; };
 		5D9D1299B519251DD19CBCE13736A790 /* HCAnyOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCAnyOf.m; path = Source/Library/Logical/HCAnyOf.m; sourceTree = "<group>"; };
 		5EEF412BDD31C1B0AD6A5A1014DD1FF3 /* HCIsEmptyCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEmptyCollection.h; path = Source/Library/Collection/HCIsEmptyCollection.h; sourceTree = "<group>"; };
-		5F712DE38453A4686110F0268CC46075 /* Pods-TDDSampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDDSampleApp-resources.sh"; sourceTree = "<group>"; };
 		60B0326B9410D4CC6AE08646DFA9AACB /* HCIsTypeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsTypeOf.h; path = Source/Library/Object/HCIsTypeOf.h; sourceTree = "<group>"; };
 		60B413FEA84E79719713DB5C6404EC68 /* HCHasProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCHasProperty.h; path = Source/Library/Object/HCHasProperty.h; sourceTree = "<group>"; };
 		62A34BC150E654B32B81F68FEB4AF3EF /* HCRequireNonNilObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCRequireNonNilObject.h; path = Source/Core/Helpers/HCRequireNonNilObject.h; sourceTree = "<group>"; };
 		646F7A6C62099B497C59279885631B3E /* HCTestFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailure.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailure.m; sourceTree = "<group>"; };
 		64E4E7CCDB77D1BAB85877943D5B1214 /* OCHamcrest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCHamcrest.xcconfig; sourceTree = "<group>"; };
+		6D5F276D57740C232B3E50C890930307 /* Pods-TDDSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDDSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DBF1BED2C289CB74F58C0C503254208 /* HCShortReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCShortReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCShortReturnGetter.h; sourceTree = "<group>"; };
 		6EEB4E3F3657BA25DDD4788602013541 /* HCBoolReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCBoolReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCBoolReturnGetter.m; sourceTree = "<group>"; };
 		73800FD6E59699CEB3617B7F9E0298D8 /* HCXCTestFailureReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCXCTestFailureReporter.m; path = Source/Core/Helpers/TestFailureReporters/HCXCTestFailureReporter.m; sourceTree = "<group>"; };
+		73B61171C909E48D75A4B31EB1065709 /* Pods-TDDSampleApp_AcceptanceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDDSampleApp_AcceptanceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7469FE5F4A603BA863CCA8419C45FAD5 /* HCConformsToProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCConformsToProtocol.h; path = Source/Library/Object/HCConformsToProtocol.h; sourceTree = "<group>"; };
 		747F2B361AF9FA312BF514A1BE035833 /* HCReturnTypeHandlerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCReturnTypeHandlerChain.m; path = Source/Core/Helpers/ReturnValueGetters/HCReturnTypeHandlerChain.m; sourceTree = "<group>"; };
 		7595D63F99F20929E57301B083CEE170 /* HCAssertThat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCAssertThat.m; path = Source/Core/HCAssertThat.m; sourceTree = "<group>"; };
 		778CD42978EF1ABF865FF158DF3C0A01 /* HCSubstringMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSubstringMatcher.h; path = Source/Library/Text/HCSubstringMatcher.h; sourceTree = "<group>"; };
 		79C4C395B5264DD51EAAE2B5D1515C85 /* HCIsTypeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsTypeOf.m; path = Source/Library/Object/HCIsTypeOf.m; sourceTree = "<group>"; };
 		79C91C10BBBD355D4F0C7F74BD02A7FE /* HCIsIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsIn.h; path = Source/Library/Collection/HCIsIn.h; sourceTree = "<group>"; };
+		79ED4DF961D1F8A02D554845CFC05B3E /* Pods-TDDSampleAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDDSampleAppTests-frameworks.sh"; sourceTree = "<group>"; };
 		7BEA46A15320A99D298072B8D84DFD93 /* HCOrderingComparison.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCOrderingComparison.m; path = Source/Library/Number/HCOrderingComparison.m; sourceTree = "<group>"; };
 		7C4859B1974395699BA33EE227256D9C /* HCUnsignedIntReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedIntReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedIntReturnGetter.h; sourceTree = "<group>"; };
 		7D4151302173217AF14D82E4F0B022A9 /* HCBoolReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBoolReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCBoolReturnGetter.h; sourceTree = "<group>"; };
 		7E8F5F06E2568BDEFA15A8E206E7E83D /* HCLongLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCLongLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCLongLongReturnGetter.m; sourceTree = "<group>"; };
+		7EF5DA18C87B4C6EDD88C80FDFB1422B /* Pods-TDDSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDDSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		82B566B673BD40776467DC90C762A4E8 /* HCWrapInMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCWrapInMatcher.h; path = Source/Core/Helpers/HCWrapInMatcher.h; sourceTree = "<group>"; };
 		836E116FD737FEA3CFFEE25E0A386592 /* HCTestFailureReporterChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTestFailureReporterChain.h; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.h; sourceTree = "<group>"; };
 		84494906B083FD5D589D0C545A939AFC /* HCIsEmptyCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEmptyCollection.m; path = Source/Library/Collection/HCIsEmptyCollection.m; sourceTree = "<group>"; };
-		87706AA6BC69373C6BAC061B9FEE9FD3 /* Pods-TDDSampleAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDDSampleAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		89173269D4C640191162007F80763FAD /* HCDescribedAs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCDescribedAs.m; path = Source/Library/Decorator/HCDescribedAs.m; sourceTree = "<group>"; };
-		8A2C0065EA8FC134A27EA75B11FCC296 /* libPods-TDDSampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TDDSampleAppTests.a"; path = "libPods-TDDSampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C24C8F343A1DEFB5FE83CCA775C7FB8 /* Pods-TDDSampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDDSampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		8C951706555F4C98C2A64B4A5DA070AE /* HCIsEqualToNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEqualToNumber.h; path = Source/Library/Number/HCIsEqualToNumber.h; sourceTree = "<group>"; };
 		8E0A9D5D67DAA788610F6DA7287F54EA /* HCIsCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCloseTo.m; path = Source/Library/Number/HCIsCloseTo.m; sourceTree = "<group>"; };
 		911C9D46E1CF8FFA2C32BB2753FAF67E /* HCIsCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCloseTo.h; path = Source/Library/Number/HCIsCloseTo.h; sourceTree = "<group>"; };
@@ -284,6 +298,7 @@
 		969041589A5B8D309FCDC749965F3B3E /* HCNumberAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCNumberAssert.h; path = Source/Library/Number/HCNumberAssert.h; sourceTree = "<group>"; };
 		99B9B841B941A8208D533B429FD8700F /* HCStringContainsInOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCStringContainsInOrder.h; path = Source/Library/Text/HCStringContainsInOrder.h; sourceTree = "<group>"; };
 		9C9EAF080DABEC547D7D213AB6B450AE /* HCIsDictionaryContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContaining.h; path = Source/Library/Collection/HCIsDictionaryContaining.h; sourceTree = "<group>"; };
+		9CF3E9701C06295CC25E2116A0E355CB /* Pods-TDDSampleApp_AcceptanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDDSampleApp_AcceptanceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D26361C1FA5FB9888A1C4824F542A8C /* HCIsEqualToNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqualToNumber.m; path = Source/Library/Number/HCIsEqualToNumber.m; sourceTree = "<group>"; };
 		9E6EB968BE14D75665EFFAB6B4C1D7C5 /* HCStringDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCStringDescription.h; path = Source/Core/HCStringDescription.h; sourceTree = "<group>"; };
 		9F44DDC54B3F80B5D74440FB51B71FF5 /* HCIsDictionaryContainingValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContainingValue.h; path = Source/Library/Collection/HCIsDictionaryContainingValue.h; sourceTree = "<group>"; };
@@ -291,18 +306,16 @@
 		A305E8EF1E42A9B203B9BB9161BC4AB0 /* HCStringDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringDescription.m; path = Source/Core/HCStringDescription.m; sourceTree = "<group>"; };
 		A316DC8B2B741A43524126AB3A23E976 /* HCIsDictionaryContainingEntries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsDictionaryContainingEntries.m; path = Source/Library/Collection/HCIsDictionaryContainingEntries.m; sourceTree = "<group>"; };
 		A32973C2284EA57BB05300BCA2932B67 /* HCGenericTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCGenericTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCGenericTestFailureReporter.h; sourceTree = "<group>"; };
-		A358BF5477E0BC65087E4F5DCD160B9C /* Pods-TDDSampleAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDDSampleAppTests-dummy.m"; sourceTree = "<group>"; };
 		A4D8029E051669A8BF49C2A3361B3978 /* HCShortReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCShortReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCShortReturnGetter.m; sourceTree = "<group>"; };
 		A54FD1529CDBE5DBE4F5B1B91AC2AF12 /* HCAllOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCAllOf.m; path = Source/Library/Logical/HCAllOf.m; sourceTree = "<group>"; };
+		A5684CB540696E8CC770F645D9E68321 /* Pods-TDDSampleApp_AcceptanceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDDSampleApp_AcceptanceTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A58BCCF02797059F20B95A74E5F600F3 /* HCUnsignedIntReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedIntReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedIntReturnGetter.m; sourceTree = "<group>"; };
 		A7429A4DA13374EE76D2615345E47E71 /* HCIsSame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsSame.h; path = Source/Library/Object/HCIsSame.h; sourceTree = "<group>"; };
-		A8263C9610A4EA43E193FCED6B49707A /* Pods-TDDSampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDDSampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		A74E225CFED7154CF44990B8C3F2A10B /* Pods-TDDSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDDSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A8AD896589F3213785F8573C16B43D62 /* OCHamcrest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCHamcrest-prefix.pch"; sourceTree = "<group>"; };
 		A95868CD7E4ADA681239EE50BAAF2259 /* HCDiagnosingMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDiagnosingMatcher.h; path = Source/Core/HCDiagnosingMatcher.h; sourceTree = "<group>"; };
 		AB482C51D27E2138D8AF17441B44B211 /* HCFloatReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCFloatReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCFloatReturnGetter.h; sourceTree = "<group>"; };
-		AD197A98387037CEF70CBC028B20F7B7 /* Pods-TDDSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDDSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		AF9DB1CFD2BDD43C7642CFEE2E5D11FD /* HCIs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIs.m; path = Source/Library/Decorator/HCIs.m; sourceTree = "<group>"; };
-		AFB06892D9D88B551BD561B37ABF4AF0 /* Pods-TDDSampleAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDDSampleAppTests-frameworks.sh"; sourceTree = "<group>"; };
 		B01D90AF49FA6D2DCC1278753F0BCAEB /* HCDiagnosingMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCDiagnosingMatcher.m; path = Source/Core/HCDiagnosingMatcher.m; sourceTree = "<group>"; };
 		B0B298DA9E060C153D6030E5D227FEA3 /* HCHasCount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCHasCount.h; path = Source/Library/Collection/HCHasCount.h; sourceTree = "<group>"; };
 		B1D4A597B271F5944853EBD432E9A139 /* HCObjectReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCObjectReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCObjectReturnGetter.h; sourceTree = "<group>"; };
@@ -317,9 +330,7 @@
 		BE4CCFA2DA7F5AD11765EBEDA9E26416 /* HCIsCollectionOnlyContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCollectionOnlyContaining.h; path = Source/Library/Collection/HCIsCollectionOnlyContaining.h; sourceTree = "<group>"; };
 		BE9E325947E91F1236B5F677278050B6 /* HCCharReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCCharReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCCharReturnGetter.h; sourceTree = "<group>"; };
 		BF3D52E3BD9C5385EE18D19402471E7B /* HCIsEqualIgnoringCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqualIgnoringCase.m; path = Source/Library/Text/HCIsEqualIgnoringCase.m; sourceTree = "<group>"; };
-		BF99CA1047A1519C797A1511BEAF1603 /* Pods-TDDSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDDSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		BFA51332094E6C3730A9AE46BC030D9B /* HCSenTestFailureReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCSenTestFailureReporter.m; path = Source/Core/Helpers/TestFailureReporters/HCSenTestFailureReporter.m; sourceTree = "<group>"; };
-		C2C51388EA7F452946FA42CAC32FF0BC /* Pods-TDDSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDDSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2F7313ECC35B990A8F7070F85F1E7E8 /* HCStringEndsWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCStringEndsWith.h; path = Source/Library/Text/HCStringEndsWith.h; sourceTree = "<group>"; };
 		C44B4995517177E84D19F8CA65911EBA /* NSInvocation+OCHamcrest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCHamcrest.h"; path = "Source/Core/Helpers/NSInvocation+OCHamcrest.h"; sourceTree = "<group>"; };
 		C51E4642907DC0EBBBCDAE88D968FB63 /* HCRunloopRunner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCRunloopRunner.m; path = Source/Core/Helpers/HCRunloopRunner.m; sourceTree = "<group>"; };
@@ -334,12 +345,13 @@
 		D730FD71DAF28E18DBA5E5D105F1488F /* HCRunloopRunner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCRunloopRunner.h; path = Source/Core/Helpers/HCRunloopRunner.h; sourceTree = "<group>"; };
 		D81C97682DEB46BA6872900BFC15A5E5 /* HCReturnValueGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCReturnValueGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCReturnValueGetter.h; sourceTree = "<group>"; };
 		D84951AAACFFB0696C32C4F75F75CDFE /* OCHamcrest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCHamcrest.h; path = Source/OCHamcrest.h; sourceTree = "<group>"; };
+		D8ABCBF85F74BA75FDDBC37677037974 /* Pods-TDDSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDDSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		D9AF59000E0E23D9F91B646E4B1F690E /* HCNumberAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCNumberAssert.m; path = Source/Library/Number/HCNumberAssert.m; sourceTree = "<group>"; };
 		DA26ADDCF19FD2421846421AB3CBDA37 /* HCLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCLongReturnGetter.m; sourceTree = "<group>"; };
 		DAC180688559CED5EAFC9F48F98C2AC4 /* HCBaseDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBaseDescription.h; path = Source/Core/HCBaseDescription.h; sourceTree = "<group>"; };
 		DBE686BCA589F957B7EE579882F74088 /* HCIsEqualCompressingWhiteSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEqualCompressingWhiteSpace.h; path = Source/Library/Text/HCIsEqualCompressingWhiteSpace.h; sourceTree = "<group>"; };
 		DD99F49BE5AFE97C2C5AF078FC69F9ED /* HCUnsignedLongReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedLongReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongReturnGetter.h; sourceTree = "<group>"; };
-		E0178825823313D5238778EB7DDCDD07 /* libPods-TDDSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TDDSampleApp.a"; path = "libPods-TDDSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E074ABB89C0B5A9659668060C541C54C /* Pods-TDDSampleApp_AcceptanceTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDDSampleApp_AcceptanceTests-frameworks.sh"; sourceTree = "<group>"; };
 		E230D83603D59BA0572C54D0B3CD1222 /* HCIsAnything.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsAnything.m; path = Source/Library/Logical/HCIsAnything.m; sourceTree = "<group>"; };
 		E3C17EB2F6DDA94A6F7A78669C8D5693 /* HCEvery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCEvery.m; path = Source/Library/Collection/HCEvery.m; sourceTree = "<group>"; };
 		E3DDAD310122E5351E1AD8A62BE3A717 /* HCSubstringMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCSubstringMatcher.m; path = Source/Library/Text/HCSubstringMatcher.m; sourceTree = "<group>"; };
@@ -347,11 +359,16 @@
 		EAE1FF17F106539363B7711939AEC6B3 /* HCIsEqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEqual.h; path = Source/Library/Object/HCIsEqual.h; sourceTree = "<group>"; };
 		EE7D3A8B0EBCD2C6786D250F24026AE5 /* HCSelfDescribing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSelfDescribing.h; path = Source/Core/HCSelfDescribing.h; sourceTree = "<group>"; };
 		F00366A4D3A888883EEB857345271BA8 /* HCDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDescription.h; path = Source/Core/HCDescription.h; sourceTree = "<group>"; };
+		F2012AF8051FF7993C02EF071A2B3E5F /* Pods-TDDSampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDDSampleApp-dummy.m"; sourceTree = "<group>"; };
 		F33314CE75CC125FF51858404F0F734D /* HCUnsignedCharReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedCharReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedCharReturnGetter.m; sourceTree = "<group>"; };
+		F4162A19668C4C4F40C347BA2E9F2963 /* libPods-TDDSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TDDSampleApp.a"; path = "libPods-TDDSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6047D350DCDFDD44731A1EC30A63B1A /* HCIsAnything.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsAnything.h; path = Source/Library/Logical/HCIsAnything.h; sourceTree = "<group>"; };
+		F6D721DE26CD2526193F17E4CEE10FDF /* libPods-TDDSampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TDDSampleAppTests.a"; path = "libPods-TDDSampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86807D2D4C9844D755027ACFBB1B714 /* HCCollect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCCollect.h; path = Source/Core/Helpers/HCCollect.h; sourceTree = "<group>"; };
+		F8F71D51B60A05BABE543CCF063DA1AD /* Pods-TDDSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDDSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		F9B6354A02B9FC2D44E134C1337C72CA /* HCIs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIs.h; path = Source/Library/Decorator/HCIs.h; sourceTree = "<group>"; };
 		F9F95B760F951639239C1915993B6FD4 /* HCHasDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCHasDescription.m; path = Source/Library/Object/HCHasDescription.m; sourceTree = "<group>"; };
+		FBDA816DBE48812344B98E37C6E45673 /* libPods-TDDSampleApp_AcceptanceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TDDSampleApp_AcceptanceTests.a"; path = "libPods-TDDSampleApp_AcceptanceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6EFF4EAE4A8DC0536714D7A8FFE92E /* HCDoubleReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDoubleReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCDoubleReturnGetter.h; sourceTree = "<group>"; };
 		FEBAE66541134629FBEC48738293E98E /* HCThrowsException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCThrowsException.h; path = Source/Library/Object/HCThrowsException.h; sourceTree = "<group>"; };
 		FF182CB5ACACA1D0F6354E58A61E92F5 /* HCUnsignedShortReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedShortReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedShortReturnGetter.h; sourceTree = "<group>"; };
@@ -375,6 +392,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A23F9A059DCBC4A0053EBC30EEE39DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B045F54BABACB02A33950DCD072A63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2684B796CD50EC9C62AABFBE227D7AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,21 +411,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26C629A77D94F434BFBC9E21AF2A56D6 /* Pods-TDDSampleApp */ = {
-			isa = PBXGroup;
-			children = (
-				23F5D30FB03816AD90B36C542FF7A8A0 /* Pods-TDDSampleApp-acknowledgements.markdown */,
-				A8263C9610A4EA43E193FCED6B49707A /* Pods-TDDSampleApp-acknowledgements.plist */,
-				2F115BF6E800352961BAAEBCF8B0DEB8 /* Pods-TDDSampleApp-dummy.m */,
-				3C9FC06A890B58C9E24039615D5836FD /* Pods-TDDSampleApp-frameworks.sh */,
-				5F712DE38453A4686110F0268CC46075 /* Pods-TDDSampleApp-resources.sh */,
-				52717B943C657B2200C8873D21906815 /* Pods-TDDSampleApp.debug.xcconfig */,
-				AD197A98387037CEF70CBC028B20F7B7 /* Pods-TDDSampleApp.release.xcconfig */,
-			);
-			name = "Pods-TDDSampleApp";
-			path = "Target Support Files/Pods-TDDSampleApp";
-			sourceTree = "<group>";
-		};
 		389F621656DCE713034BF1641E32A49F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -409,14 +419,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		565FAAC8AA42E7725C0B4654FB7EF381 /* Products */ = {
+		3CD2FCC9FAF33BCD382891BF828ED7EC /* Pods-TDDSampleApp_AcceptanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				5C2A9D44E24ECBA31674143A0D470C85 /* libOCHamcrest.a */,
-				E0178825823313D5238778EB7DDCDD07 /* libPods-TDDSampleApp.a */,
-				8A2C0065EA8FC134A27EA75B11FCC296 /* libPods-TDDSampleAppTests.a */,
+				73B61171C909E48D75A4B31EB1065709 /* Pods-TDDSampleApp_AcceptanceTests-acknowledgements.markdown */,
+				A5684CB540696E8CC770F645D9E68321 /* Pods-TDDSampleApp_AcceptanceTests-acknowledgements.plist */,
+				4E401A5DB55694CC8854B993402F1806 /* Pods-TDDSampleApp_AcceptanceTests-dummy.m */,
+				E074ABB89C0B5A9659668060C541C54C /* Pods-TDDSampleApp_AcceptanceTests-frameworks.sh */,
+				1C8B817190D494AF4526D0E9AC2258C3 /* Pods-TDDSampleApp_AcceptanceTests-resources.sh */,
+				9CF3E9701C06295CC25E2116A0E355CB /* Pods-TDDSampleApp_AcceptanceTests.debug.xcconfig */,
+				163BAD40EE10A44C6FB531D62B0E36BA /* Pods-TDDSampleApp_AcceptanceTests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-TDDSampleApp_AcceptanceTests";
+			path = "Target Support Files/Pods-TDDSampleApp_AcceptanceTests";
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -444,9 +459,50 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				389F621656DCE713034BF1641E32A49F /* Pods */,
-				565FAAC8AA42E7725C0B4654FB7EF381 /* Products */,
-				E04FAD2ED7B610D5AAB9AABBAB62FFCB /* Targets Support Files */,
+				910C5072EEE0AA0C0B9BC69DFE526D38 /* Products */,
+				B7E25A710665EBF75A2666EB415ACA07 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		910C5072EEE0AA0C0B9BC69DFE526D38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51702EFC1C645DD806B185CFC2684EFE /* libOCHamcrest.a */,
+				F4162A19668C4C4F40C347BA2E9F2963 /* libPods-TDDSampleApp.a */,
+				FBDA816DBE48812344B98E37C6E45673 /* libPods-TDDSampleApp_AcceptanceTests.a */,
+				F6D721DE26CD2526193F17E4CEE10FDF /* libPods-TDDSampleAppTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A595A70DB7C1DAE79BEB40461EE37161 /* Pods-TDDSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D51B3DF9290BC17AA06BF04BB92FE22 /* Pods-TDDSampleAppTests-acknowledgements.markdown */,
+				34BAAB7D0C743208F075DD1FBC6A0547 /* Pods-TDDSampleAppTests-acknowledgements.plist */,
+				0D10EC680BBF22EA750C749801B49026 /* Pods-TDDSampleAppTests-dummy.m */,
+				79ED4DF961D1F8A02D554845CFC05B3E /* Pods-TDDSampleAppTests-frameworks.sh */,
+				44A1B8DD4B8D33C9A010CC3C4D43E0FF /* Pods-TDDSampleAppTests-resources.sh */,
+				6D5F276D57740C232B3E50C890930307 /* Pods-TDDSampleAppTests.debug.xcconfig */,
+				F8F71D51B60A05BABE543CCF063DA1AD /* Pods-TDDSampleAppTests.release.xcconfig */,
+			);
+			name = "Pods-TDDSampleAppTests";
+			path = "Target Support Files/Pods-TDDSampleAppTests";
+			sourceTree = "<group>";
+		};
+		AEC2C9DEA6FD8620FAED36B25C5628B4 /* Pods-TDDSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				A74E225CFED7154CF44990B8C3F2A10B /* Pods-TDDSampleApp-acknowledgements.markdown */,
+				8C24C8F343A1DEFB5FE83CCA775C7FB8 /* Pods-TDDSampleApp-acknowledgements.plist */,
+				F2012AF8051FF7993C02EF071A2B3E5F /* Pods-TDDSampleApp-dummy.m */,
+				40EF10BE4696A8C25BEEF078D1A1639F /* Pods-TDDSampleApp-frameworks.sh */,
+				41A4E773ECE359753B16FD0EA939C22A /* Pods-TDDSampleApp-resources.sh */,
+				7EF5DA18C87B4C6EDD88C80FDFB1422B /* Pods-TDDSampleApp.debug.xcconfig */,
+				D8ABCBF85F74BA75FDDBC37677037974 /* Pods-TDDSampleApp.release.xcconfig */,
+			);
+			name = "Pods-TDDSampleApp";
+			path = "Target Support Files/Pods-TDDSampleApp";
 			sourceTree = "<group>";
 		};
 		AF6546ECA461B79E793399668C84B0DE /* OCHamcrest */ = {
@@ -612,36 +668,22 @@
 			path = OCHamcrest;
 			sourceTree = "<group>";
 		};
+		B7E25A710665EBF75A2666EB415ACA07 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEC2C9DEA6FD8620FAED36B25C5628B4 /* Pods-TDDSampleApp */,
+				3CD2FCC9FAF33BCD382891BF828ED7EC /* Pods-TDDSampleApp_AcceptanceTests */,
+				A595A70DB7C1DAE79BEB40461EE37161 /* Pods-TDDSampleAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E04FAD2ED7B610D5AAB9AABBAB62FFCB /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				26C629A77D94F434BFBC9E21AF2A56D6 /* Pods-TDDSampleApp */,
-				F237F102E241025F00579DAB4BD52B30 /* Pods-TDDSampleAppTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F237F102E241025F00579DAB4BD52B30 /* Pods-TDDSampleAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				36EE00DB623F225781DDBA3C5668B16C /* Pods-TDDSampleAppTests-acknowledgements.markdown */,
-				87706AA6BC69373C6BAC061B9FEE9FD3 /* Pods-TDDSampleAppTests-acknowledgements.plist */,
-				A358BF5477E0BC65087E4F5DCD160B9C /* Pods-TDDSampleAppTests-dummy.m */,
-				AFB06892D9D88B551BD561B37ABF4AF0 /* Pods-TDDSampleAppTests-frameworks.sh */,
-				0F199C71A428633D89C647F7AF8F3890 /* Pods-TDDSampleAppTests-resources.sh */,
-				C2C51388EA7F452946FA42CAC32FF0BC /* Pods-TDDSampleAppTests.debug.xcconfig */,
-				BF99CA1047A1519C797A1511BEAF1603 /* Pods-TDDSampleAppTests.release.xcconfig */,
-			);
-			name = "Pods-TDDSampleAppTests";
-			path = "Target Support Files/Pods-TDDSampleAppTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -750,7 +792,7 @@
 			);
 			name = OCHamcrest;
 			productName = OCHamcrest;
-			productReference = 5C2A9D44E24ECBA31674143A0D470C85 /* libOCHamcrest.a */;
+			productReference = 51702EFC1C645DD806B185CFC2684EFE /* libOCHamcrest.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		BEDF8DB271050F146C2261FADA5F3289 /* Pods-TDDSampleAppTests */ = {
@@ -767,7 +809,7 @@
 			);
 			name = "Pods-TDDSampleAppTests";
 			productName = "Pods-TDDSampleAppTests";
-			productReference = 8A2C0065EA8FC134A27EA75B11FCC296 /* libPods-TDDSampleAppTests.a */;
+			productReference = F6D721DE26CD2526193F17E4CEE10FDF /* libPods-TDDSampleAppTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		CADCEAA8E6D68605B3D3CBAFAC1C5716 /* Pods-TDDSampleApp */ = {
@@ -783,7 +825,24 @@
 			);
 			name = "Pods-TDDSampleApp";
 			productName = "Pods-TDDSampleApp";
-			productReference = E0178825823313D5238778EB7DDCDD07 /* libPods-TDDSampleApp.a */;
+			productReference = F4162A19668C4C4F40C347BA2E9F2963 /* libPods-TDDSampleApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FF2BBFEAE07B8375BDCB4356A249F3D4 /* Pods-TDDSampleApp_AcceptanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B4D56B2AA814FBEFA07F28D1C046CC /* Build configuration list for PBXNativeTarget "Pods-TDDSampleApp_AcceptanceTests" */;
+			buildPhases = (
+				F786B6407F2413767EA7E253C2B5486B /* Sources */,
+				A23F9A059DCBC4A0053EBC30EEE39DB0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE755D4729782B0CFCD99D5945E9AE80 /* PBXTargetDependency */,
+			);
+			name = "Pods-TDDSampleApp_AcceptanceTests";
+			productName = "Pods-TDDSampleApp_AcceptanceTests";
+			productReference = FBDA816DBE48812344B98E37C6E45673 /* libPods-TDDSampleApp_AcceptanceTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -803,12 +862,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 565FAAC8AA42E7725C0B4654FB7EF381 /* Products */;
+			productRefGroup = 910C5072EEE0AA0C0B9BC69DFE526D38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2A023507EAD85F40065A236BE2F30BD4 /* OCHamcrest */,
 				CADCEAA8E6D68605B3D3CBAFAC1C5716 /* Pods-TDDSampleApp */,
+				FF2BBFEAE07B8375BDCB4356A249F3D4 /* Pods-TDDSampleApp_AcceptanceTests */,
 				BEDF8DB271050F146C2261FADA5F3289 /* Pods-TDDSampleAppTests */,
 			);
 		};
@@ -914,6 +974,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F786B6407F2413767EA7E253C2B5486B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7ABFAF50E7028E8F185EFB6AA44D69 /* Pods-TDDSampleApp_AcceptanceTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -923,9 +991,38 @@
 			target = 2A023507EAD85F40065A236BE2F30BD4 /* OCHamcrest */;
 			targetProxy = 603D17560BDFF7407CAA9E932D2F8A6B /* PBXContainerItemProxy */;
 		};
+		FE755D4729782B0CFCD99D5945E9AE80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCHamcrest;
+			target = 2A023507EAD85F40065A236BE2F30BD4 /* OCHamcrest */;
+			targetProxy = CA654F5CE5BB2965524E95D0A9ECC69F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		152F5580EED212EFDCA02DF5ECCEA368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 163BAD40EE10A44C6FB531D62B0E36BA /* Pods-TDDSampleApp_AcceptanceTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -968,7 +1065,7 @@
 		};
 		19323CFDCFA23F92B42EBE96C66BC109 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52717B943C657B2200C8873D21906815 /* Pods-TDDSampleApp.debug.xcconfig */;
+			baseConfigurationReference = 7EF5DA18C87B4C6EDD88C80FDFB1422B /* Pods-TDDSampleApp.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -991,7 +1088,7 @@
 		};
 		1E125DAF8B4AB92F99DA393C40937E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2C51388EA7F452946FA42CAC32FF0BC /* Pods-TDDSampleAppTests.debug.xcconfig */;
+			baseConfigurationReference = 6D5F276D57740C232B3E50C890930307 /* Pods-TDDSampleAppTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1014,7 +1111,7 @@
 		};
 		4CCC6F48E1F32174F869E164949F72A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD197A98387037CEF70CBC028B20F7B7 /* Pods-TDDSampleApp.release.xcconfig */;
+			baseConfigurationReference = D8ABCBF85F74BA75FDDBC37677037974 /* Pods-TDDSampleApp.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1081,6 +1178,29 @@
 			};
 			name = Debug;
 		};
+		B5B5FEF61574555FD424726C87839B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF3E9701C06295CC25E2116A0E355CB /* Pods-TDDSampleApp_AcceptanceTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1127,7 +1247,7 @@
 		};
 		E728E711D3B9272560D36F561D64E9F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF99CA1047A1519C797A1511BEAF1603 /* Pods-TDDSampleAppTests.release.xcconfig */;
+			baseConfigurationReference = F8F71D51B60A05BABE543CCF063DA1AD /* Pods-TDDSampleAppTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1183,6 +1303,15 @@
 			buildConfigurations = (
 				8DDFFFC46D2367E6D56A1C7DDDFF0005 /* Debug */,
 				4D7854AA16960244C71C07BD2F2AD7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B4D56B2AA814FBEFA07F28D1C046CC /* Build configuration list for PBXNativeTarget "Pods-TDDSampleApp_AcceptanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B5FEF61574555FD424726C87839B15 /* Debug */,
+				152F5580EED212EFDCA02DF5ECCEA368 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
