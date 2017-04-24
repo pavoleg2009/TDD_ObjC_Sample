@@ -9,23 +9,35 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Unit Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>-[POSFetchCharactersMarvelServiceTests testFetchCharacters_ShouldAskURLSessionToCreateDataTask].xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>28553E0D1EA81CF200133E90</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>28B29AAE1EA3A53500B96828</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>28B29ACE1EA62F8300B96828</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 	</dict>
 </dict>

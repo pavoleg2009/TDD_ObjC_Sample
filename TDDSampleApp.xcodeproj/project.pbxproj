@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2824A0EE1EAD6F83007AB8E8 /* POSFetchCharactersMarvelServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2824A0ED1EAD6F83007AB8E8 /* POSFetchCharactersMarvelServiceTests.m */; };
 		28553E111EA81CF200133E90 /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28553E101EA81CF200133E90 /* AcceptanceTests.m */; };
 		28B29AB41EA3A53500B96828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29AB31EA3A53500B96828 /* main.m */; };
 		28B29AB71EA3A53500B96828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29AB61EA3A53500B96828 /* AppDelegate.m */; };
@@ -19,6 +20,8 @@
 		28B29B261EA65C2600B96828 /* TestingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B251EA65C2600B96828 /* TestingAppDelegate.m */; };
 		28B29B291EA692C700B96828 /* POSMarvelAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B281EA692C700B96828 /* POSMarvelAuthentication.m */; };
 		28B29B2B1EA6939200B96828 /* POSMarvelAuthenticationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B29B2A1EA6939200B96828 /* POSMarvelAuthenticationTest.m */; };
+		80C078162F1A62BC27D52BF5 /* POSFetchCharactersMarvelService.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C0715243312B2FEC0F4FD6 /* POSFetchCharactersMarvelService.m */; };
+		80C07D031670B6B4063F7FD3 /* POSFetchCharactersRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C073F836809A611282CD29 /* POSFetchCharactersRequestModel.m */; };
 		822AE45BEDD9848FD362AEC3 /* libPods-TDDSampleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2A8659532EAEA0B8FB7D5B /* libPods-TDDSampleAppTests.a */; };
 		8AB7565D69CFA83513316572 /* libPods-TDDSampleApp_AcceptanceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C48F444255EA68FA8C1A31 /* libPods-TDDSampleApp_AcceptanceTests.a */; };
 		B43C4DD61108DCD8FA619FD1 /* libPods-TDDSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E32FA35B8C9F250C47CE7813 /* libPods-TDDSampleApp.a */; };
@@ -44,6 +47,7 @@
 /* Begin PBXFileReference section */
 		06C48F444255EA68FA8C1A31 /* libPods-TDDSampleApp_AcceptanceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDDSampleApp_AcceptanceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		095F8FEFE2F9A694844B794F /* Pods-TDDSampleApp_AcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDSampleApp_AcceptanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDDSampleApp_AcceptanceTests/Pods-TDDSampleApp_AcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		2824A0ED1EAD6F83007AB8E8 /* POSFetchCharactersMarvelServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSFetchCharactersMarvelServiceTests.m; sourceTree = "<group>"; };
 		28553E0E1EA81CF200133E90 /* TDDSampleApp_AcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSampleApp_AcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28553E101EA81CF200133E90 /* AcceptanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AcceptanceTests.m; path = TDDSampleApp_AcceptanceTests/AcceptanceTests.m; sourceTree = SOURCE_ROOT; };
 		28B29AAF1EA3A53500B96828 /* TDDSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +68,10 @@
 		28B29B271EA692C700B96828 /* POSMarvelAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSMarvelAuthentication.h; sourceTree = "<group>"; };
 		28B29B281EA692C700B96828 /* POSMarvelAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSMarvelAuthentication.m; sourceTree = "<group>"; };
 		28B29B2A1EA6939200B96828 /* POSMarvelAuthenticationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSMarvelAuthenticationTest.m; sourceTree = "<group>"; };
+		80C0713B8DA711FD7BE28876 /* POSFetchCharactersMarvelService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSFetchCharactersMarvelService.h; sourceTree = "<group>"; };
+		80C0715243312B2FEC0F4FD6 /* POSFetchCharactersMarvelService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSFetchCharactersMarvelService.m; sourceTree = "<group>"; };
+		80C073F836809A611282CD29 /* POSFetchCharactersRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSFetchCharactersRequestModel.m; sourceTree = "<group>"; };
+		80C07804BEE268357181830B /* POSFetchCharactersRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSFetchCharactersRequestModel.h; sourceTree = "<group>"; };
 		95DF420CD0BB26ED372467B0 /* Pods-TDDSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDDSampleApp/Pods-TDDSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		9A2A8659532EAEA0B8FB7D5B /* libPods-TDDSampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDDSampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1D95F7E42F5652141D63E4 /* Pods-TDDSampleApp_AcceptanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDSampleApp_AcceptanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDDSampleApp_AcceptanceTests/Pods-TDDSampleApp_AcceptanceTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +132,7 @@
 		28B29AB11EA3A53500B96828 /* TDDSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				2824A0ED1EAD6F83007AB8E8 /* POSFetchCharactersMarvelServiceTests.m */,
 				28553E101EA81CF200133E90 /* AcceptanceTests.m */,
 				28B29AC31EA3A53500B96828 /* App-Info.plist */,
 				28B29AB51EA3A53500B96828 /* AppDelegate.h */,
@@ -141,6 +150,10 @@
 				28B29B201EA6349400B96828 /* Tests-Info.plist */,
 				28B29AB81EA3A53500B96828 /* ViewController.h */,
 				28B29AB91EA3A53500B96828 /* ViewController.m */,
+				80C073F836809A611282CD29 /* POSFetchCharactersRequestModel.m */,
+				80C07804BEE268357181830B /* POSFetchCharactersRequestModel.h */,
+				80C0715243312B2FEC0F4FD6 /* POSFetchCharactersMarvelService.m */,
+				80C0713B8DA711FD7BE28876 /* POSFetchCharactersMarvelService.h */,
 			);
 			path = TDDSampleApp;
 			sourceTree = "<group>";
@@ -473,6 +486,8 @@
 				28B29B291EA692C700B96828 /* POSMarvelAuthentication.m in Sources */,
 				28B29ACA1EA3B2D400B96828 /* MarvelKeys.m in Sources */,
 				28B29AB41EA3A53500B96828 /* main.m in Sources */,
+				80C07D031670B6B4063F7FD3 /* POSFetchCharactersRequestModel.m in Sources */,
+				80C078162F1A62BC27D52BF5 /* POSFetchCharactersMarvelService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +497,7 @@
 			files = (
 				28B29B2B1EA6939200B96828 /* POSMarvelAuthenticationTest.m in Sources */,
 				28B29B261EA65C2600B96828 /* TestingAppDelegate.m in Sources */,
+				2824A0EE1EAD6F83007AB8E8 /* POSFetchCharactersMarvelServiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,6 +718,7 @@
 				28553E161EA81CF200133E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28B29AAA1EA3A53500B96828 /* Build configuration list for PBXProject "TDDSampleApp" */ = {
 			isa = XCConfigurationList;
