@@ -6,45 +6,78 @@
 #import "POSFetchCharactersRequestModel.h"
 
 @interface POSFetchCharactersMarvelServiceTests : XCTestCase
-
+{
+    NSURLSession *mockSession;
+    POSFetchCharactersMarvelService *sut;
+    NSURLSessionDataTask *mockDataTask;
+}
 @end
 
 @implementation POSFetchCharactersMarvelServiceTests
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    mockSession = mock([NSURLSession class]);
+    sut = [[POSFetchCharactersMarvelService alloc] initWithSession:mockSession];
+    //mockDataTask = mock([NSURLSessionDataTask class]);
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    mockSession = nil;
+    sut = nil;
+    //mockDataTask = nil;
     [super tearDown];
 }
 
 - (void)testFetchCharacters_ShouldAskURLSessionToCreateDataTask {
 
-    NSURLSession *mockSession = mock([NSURLSession class]);
-    POSFetchCharactersMarvelService *sut = [[POSFetchCharactersMarvelService alloc] initWithSession:mockSession];
-
     POSFetchCharactersRequestModel *requestModel = [[POSFetchCharactersRequestModel alloc]
-            initWithNamePrefix:@"Dummi" pageSize:@10 offset:30];
+            initWithNamePrefix:@"Dummy" pageSize:@10 offset:30];
 
-    [sut fetchCaractersWithRequestModel:requestModel];
+    [sut fetchCharactersWithRequestModel:requestModel];
 
     [verify(mockSession) dataTaskWithURL:hasProperty(@"host", @"gateway.marvel.com") completionHandler:anything()];
 }
 
 
 - (void)testFetchCharacters_ShouldAMakeDataWithSecureConnection {
-    NSURLSession *mockSession = mock([NSURLSession class]);
-    POSFetchCharactersMarvelService *sut = [[POSFetchCharactersMarvelService alloc] initWithSession:mockSession];
 
     POSFetchCharactersRequestModel *requestModel = [[POSFetchCharactersRequestModel alloc]
-            initWithNamePrefix:@"Dummi" pageSize:@10 offset:30];
+            initWithNamePrefix:@"Dummy" pageSize:@10 offset:30];
 
-    [sut fetchCaractersWithRequestModel:requestModel];
+    [sut fetchCharactersWithRequestModel:requestModel];
 
     [verify(mockSession) dataTaskWithURL:hasProperty(@"scheme", @"https") completionHandler:anything()];
+}
+
+- (void)testFetchCharacter_WithNamePrefix_ShouldMakeDataTaskWithNameStartsWithParameter {
+
+    POSFetchCharactersRequestModel *requestModel =
+            [[POSFetchCharactersRequestModel alloc] initWithNamePrefix:@"NAME"
+                                                              pageSize:10
+                                                                offset:30];
+//    NSURL *expextedURL = [NSURL URLWithString:@"https://gateway.marvel.com/v1/public/characters?nameStartsWith=NAME"];
+    [sut fetchCharactersWithRequestModel:requestModel];
+
+    HCArgumentCaptor *argument = [[HCArgumentCaptor alloc] init];
+    [verify(mockSession) dataTaskWithURL:(id)argument completionHandler:anything()];
+    NSURL *urlArgument = argument.value;
+    
+//    NSLog(@"%@", ((NSURL *)argument.value));
+//    NSLog(@"%@", ((NSURL *)argument.value).query);
+//    NSRange range = [urlArgument.query rangeOfString:@"nameStartsWith=NAME"];
+//    XCTAssertNotEqual(range.location, NSNotFound);
+
+    NSURLComponents *urlComponents = [NSURLComponents componentsWithURL:urlArgument
+                                                resolvingAgainstBaseURL:NO];
+    NSArray<NSURLQueryItem *> *queryItems = urlComponents.queryItems;
+
+//    for (int i = 0; i < queryItems.count; ++i) {
+//        NSLog(@"%d. %@ - %@", i, queryItems[i].name, queryItems[i].value);
+//    }
+
+    NSURLQueryItem *item = [[NSURLQueryItem alloc] initWithName:@"nameStartsWith" value:@"NAME"];
+    XCTAssertTrue([queryItems containsObject:item]);
 }
 
 @end

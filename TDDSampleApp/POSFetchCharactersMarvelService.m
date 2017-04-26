@@ -28,7 +28,7 @@
     return self;
 }
 
-- (void)fetchCaractersWithRequestModel:(POSFetchCharactersRequestModel *)requestModel
+- (void)fetchCharactersWithRequestModel:(POSFetchCharactersRequestModel *)requestModel
 {
     NSURL *url = [self URLForRequestModel:requestModel];
     NSURLSessionDataTask *dataTask = [self.session dataTaskWithURL:url

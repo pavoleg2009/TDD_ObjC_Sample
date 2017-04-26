@@ -14,6 +14,6 @@
 
 - (instancetype)initWithSession:(NSURLSession *)session;
      // andAuthParameterGenerators:(NSString *(^)())authParametersGenerator;
-- (void)fetchCaractersWithRequestModel:(POSFetchCharactersRequestModel *)requestModel;
+- (void)fetchCharactersWithRequestModel:(POSFetchCharactersRequestModel *)requestModel;
 
 @end
